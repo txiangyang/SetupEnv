@@ -1,0 +1,718 @@
+    1  ls
+    2  cd ~
+    3  nvim .zshrc
+    4  cd~
+    5  cd ~
+    6  ls
+    7  pwd
+    8  rm -rf ohmyzsh
+    9  ls
+   10  tmux
+   11  paru jellyfin-ffmpeg5
+   12  ls
+   13  fdisk -l
+   14  sudo fdisk -l
+   15  sudo mount /dev/nvme0n1p7 /mnt/manjaro
+   16  sudo vi /etc/fstab
+   17  ls
+   18  clear
+   19  sudo nvim /etc/fstab
+   20  sudo mount /dev/nvme0n1p6 /mnt/manjaro
+   21  sudo nvim /etc/fstab
+   22  ls
+   23  cd ~
+   24  ls
+   25  ls -al
+   26  ls /bin
+   27  ls
+   28  sudo fdisk -l
+   29  mount /dev/mmcblk0p1 /mnt/sd
+   30  sudo mount /dev/mmcblk0p1 /mnt/sd
+   31  ls /mnt/sd
+   32  cd /mnt/sd/DCIM ~/
+   33  cd /mnt/sd/DCIM .
+   34  cp /mnt/sd/DCIM .
+   35  cp -r /mnt/sd/DCIM .
+   36  ls
+   37  tmux attatch-session t 0
+   38  tmux attach-session 0
+   39  tmux attach-session 
+   40  yap -S intel-media-sdk intel-media-driver intel-compute-runtime libva-mesa-driver 
+   41  yay -S intel-media-sdk intel-media-driver intel-compute-runtime libva-mesa-driver 
+   42  yay -S reflector
+   43  yay -S pacman-mirrorlist
+   44  pacman-mirrorlist
+   45  pacman-mirrors -i -c China -m rank
+   46  sudo pacman-mirrors -i -c China -m rank
+   47  sudo reflector
+   48  where zsh
+   49  ls
+   50  ln -sf /usr/bin/nvim /bin/vi
+   51  sudo ln -sf /usr/bin/nvim /bin/vi
+   52  vi
+   53  vim
+   54  sudo vi
+   55  sudo vi /etc/pacman.d/mirrorlist
+   56  sudo systemctl enable jellyfin
+   57  sudo systemctl start jellyfin.service
+   58  ls
+   59  mount
+   60  sudo vi /etc/fstab
+   61  sudo vi /etc/passwd
+   62  ls
+   63  ls /
+   64  mkdir /media
+   65  sudo mkdir /media
+   66  cd /media
+   67  ls
+   68  vi /etc/fstab
+   69  mkdir /media/Movies
+   70  sudo chmod 777 /media
+   71  ls
+   72  cd /media
+   73  mkdir Movies
+   74  mkdir Music
+   75  mkdir TV
+   76  mkdir Downloads
+   77  mkdir FariyTale
+   78  mkdir Photos
+   79  mkdir 'Variety Shows'
+   80  ls
+   81  ls -al
+   82  sudo vi /etc/fstab
+   83  ls
+   84  ssh-keygen
+   85  ls
+   86  cd ~/.ssh
+   87  ls
+   88  exit
+   89  ls
+   90  rm -rf DCIM
+   91  ls
+   92  ls /media
+   93  ls
+   94  cd /media
+   95  ls Downloads
+   96  ls -al
+   97  cd Downloads
+   98  sudo su
+   99  ls /media/Downloads
+  100  cd /media
+  101  ls
+  102  cd Downloads
+  103  ls Downloads
+  104  chown tang Downloads
+  105  sudo chown tang Downloads
+  106  cd Downloads
+  107  ls
+  108  ls Downloads
+  109  cd Downloads
+  110  ls
+  111  cd .
+  112  cd ..
+  113  ls
+  114  cd FariyTale
+  115  sudo su
+  116  yay -S genfstab
+  117  pacman -Syuu
+  118  sudo pacman -Syuu
+  119  ls
+  120  cd ..
+  121  ls
+  122  mkdir muyi
+  123  ls
+  124  sudo mkdir muyi
+  125  sudo chown tang muyi
+  126  cd muyi
+  127  ls
+  128  cd ..
+  129  mount 10.0.0.8:/ /home/muyi
+  130  sudo mount 10.0.0.8:/ /home/muyi
+  131  systemctl daemon-reload\
+  132  systemctl daemon-reload
+  133  sudo systemctl daemon-reload
+  134  sudo mount 10.0.0.8:/ /home/muyi
+  135  sudo dmesg
+  136  sudo mount 10.0.0.8:/Pt /media/Movies
+  137  reboot
+  138  sudo reboot
+  139  sudo mount 10.0.0.8:/Pt /media/Movies
+  140  yay -S nfs-utils
+  141  sudo vi /etc/fstab
+  142  sudo reboot
+  143  ls /media/Movies
+  144  sudo vi /etc/fstab
+  145  ls
+  146  sudo mount -a
+  147  ls
+  148  cd /media
+  149  ls
+  150  cd Downloads
+  151  ls
+  152  sudo reboot
+  153  ls 
+  154  ls /me
+  155  cd /media
+  156  ls
+  157  cd Downloads
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd FariyTale
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd Movies
+  166  ls
+  167  cd ..
+  168  ls
+  169  ls Music
+  170  ls
+  171  ls Photos
+  172  ls TV
+  173  ls
+  174  ls Variety\ Shows
+  175  ls
+  176  ls Downloads
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd media
+  181  ls
+  182  sudo vi /etc/locale.conf
+  183  lspci -nn | egrep -i "3d|display|vga"
+  184  sudo yay -S linux-firmware
+  185  vi /etc/default/grub
+  186  sudo vi /etc/default/grub
+  187  ls
+  188  sudo mount /dev/nvme0n1p6 /mnt/manjaro
+  189  cd /mnt/manjaro
+  190  ls
+  191  vi etc/default/grub
+  192  sudo cat /sys/kernel/debug/dri/0/gt/uc/guc_info
+  193  sudo reboot
+  194  lspci -nn | egrep -i "3d|display|vga
+  195  cat /sys/kernel/debug/dri/0/gt/uc/guc_info
+  196  sudo cat /sys/kernel/debug/dri/0/gt/uc/guc_info
+  197  sudo cat /sys/kernel/debug/dri/0/gt/uc/huc_info
+  198  sudo su
+  199  sudo cat /sys/kernel/debug/dri/0/gt/uc/guc_info
+  200  vi /etc/modprobe.d/i915.conf
+  201  ls
+  202  sudo  systemctl status jellyfin
+  203  df -h /
+  204  ls
+  205  ls /b
+  206  cd /b
+  207  ls
+  208  cd /boot
+  209  ls
+  210  ls /bin
+  211  yay -S  \tmesa
+  212  sudo vi /etc/mkinitcpio.conf
+  213  sudo mkinitcpio -P
+  214  sudo reboot
+  215  sudo vi /etc/modprobe.d/i915.conf
+  216  sudo mkinitcpio -P
+  217  sudo reboot
+  218  dmesg
+  219  sudo dmesg
+  220  sudo dmesg | grep huc
+  221  sudo cat /sys/kernel/debug/dri/0/gt/uc/huc_info
+  222  sudo cat /sys/kernel/debug/dri/0/gt/uc/guc_info
+  223  history
+  224  sudo vi /etc/mkinitcpio.conf
+  225  modinfo -p i915
+  226  yay -S jellyfin-ffmpeg
+  227  yay -S jellyfin-ffmpeg5
+  228  cd .c
+  229  cd .cache
+  230  ls
+  231  cd yay
+  232  ls
+  233  rm -rf jellyfin-ffmpeg
+  234  ls
+  235  cd jellyfin-ffmpeg5
+  236  ls
+  237  cd jellyfin-ffmpeg
+  238  ls
+  239  cd branches
+  240  ls
+  241  cd ..
+  242  ls config
+  243  cd hooks
+  244  ls
+  245  cd .
+  246  cd ..
+  247  cd branches
+  248  ls
+  249  cd ..
+  250  sudo vi /etc/hosts
+  251  sudo reboot
+  252  tmux
+  253  yay -S jellyfin-ffmpeg5
+  254  cd .cache/yay
+  255  ls
+  256  cd jellyfin-ffmpeg5
+  257  ls
+  258  cd src
+  259  ls
+  260  tmux attach-session
+  261  cd jellyfin-ffmpeg5
+  262  yay -S jellyfin-ffmpeg5
+  263  where jellyfin-ffmpeg5
+  264  ffmpeg
+  265  where ffmpeg
+  266  yay -S jellyfin-ffmpeg
+  267  yay -S jellyfin-ffmpeg5
+  268  cd /usr/lib
+  269  ls
+  270  jellyfin-ffmpeg/ffmpeg
+  271  cd ..
+  272  ls
+  273  cd lib
+  274  ls
+  275  jellyfin-ffmpeg
+  276  ls
+  277  ff
+  278  ffmpeg
+  279  pwd
+  280  ffmpeg
+  281  pwd
+  282  ffmpeg
+  283  yay -S wqy-microhei
+  284  yay -S adobe-source-han-serif-cn-fonts
+  285  cd /usr/share/font
+  286  cd /usr/share/fonts
+  287  ls
+  288  cd adobe-source-han-serif
+  289  ls
+  290  pwd
+  291  yay -S intel_gpu_top
+  292  ls
+  293  adb
+  294  yay -S adb
+  295  adb connect 10.0.0.15
+  296  adb
+  297  adb connect 10.0.0.15
+  298  ls
+  299  adb install /media/Downloads/jellyfin-androidtv-v0.14.2-release-unsigned.apk
+  300  ls /media/Downloads/jellyfin\n
+  301  adb install /media/Downloads/jellyfin-androidtv-v0.14.2-release.aab
+  302  adb install /media/Downloads/jellyfin-androidtv-v0.14.2-debug.apk
+  303  adb install /media/Downloads/jellyfin-androidtv-v0.14.2-debug_th.apk
+  304  yay -S intel-gpu-tools
+  305  sudo intel_gpu_top
+  306  adb install /media/Downloads/jellyfin-androidtv-v0.14.2-release.apk
+  307  adb uninstall /media/Downloads/jellyfin-androidtv-v0.14.2-debug_th.apk
+  308  adb shell pm list packages -f -3
+  309  adb uninstall org.jellyfin.androidtv.debug
+  310  adb shell pm list packages -f -3
+  311  adb uninstall com.gitvdemo.video
+  312  adb shell pm list packages -f -5
+  313  adb shell pm list packages -f -3
+  314  adb shell pm list packages -f -2
+  315  adb shell pm list packages -f -1
+  316  adb shell pm list packages -f -3
+  317  adb shell pm list packages
+  318  ls
+  319  sudo systemctl restart jellyfin
+  320  ls
+  321  cd //usr/share/fonts/
+  322  ls
+  323  cd wenquanyi
+  324  ls
+  325  cd wqy-microhei
+  326  ls
+  327  pwd
+  328  sudo systemctl restart jellyfin
+  329  ls
+  330  sudo reboot
+  331  adb install /media/Downloads/qiyiguo_official12.8.2.apk
+  332  adb connect 10.0.0.15
+  333  adb install /media/Downloads/qiyiguo_official12.8.2.apk
+  334  adb kill-server
+  335  adb connect 10.0.0.15
+  336  adb install /media/Downloads/qiyiguo_official12.8.2.apk
+  337  ls
+  338  pwd
+  339  clear
+  340  vi /etc/passwd
+  341  cd /var/lib/jellyfin
+  342  ls
+  343  yay -S locales
+  344  locale-gen en_US.UTF-8
+  345  ls
+  346  sz
+  347  ls
+  348  cpw
+  349  ls
+  350  vi .zshrc
+  351  history
+  352  ls
+  353  cd /etc/pacman.d/
+  354  ls
+  355  cp mirrorlist mirrorlist.bk
+  356  sudo cp mirrorlist mirrorlist.bk
+  357  ls
+  358  sudo vi mirrorlist
+  359  sudo vi /etc/pacman.conf
+  360  s
+  361  pacman
+  362  ls
+  363  pac
+  364  cd ~
+  365  vi .zshrc
+  366  sudo /etc/locale.conf
+  367  sudo vi /etc/locale.conf
+  368  locale-gen en_US.UTF-8
+  369  sleep ls
+  370  ls
+  371  \tlss
+  372  vi .zshrc
+  373  source .zshrc
+  374  sudo reboot
+  375  ls
+  376  locale -a
+  377  sudo vi /etc/locale.conf
+  378  sudo sudo locale-gen en_US.UTF-8
+  379  locale -a
+  380  sudo vi /etc/default/local
+  381  rm -rf /etc/default/local
+  382  sudo rm -rf /etc/default/local
+  383  ls
+  384  cd /etc
+  385  ls
+  386  sudo vi locale.gen
+  387  locale-gen
+  388  sudo locale-gen
+  389  locale -a
+  390  source ~/.zshrc
+  391  ls
+  392  vi /etc/locale.conf
+  393  ls
+  394  LSCOLORS
+  395  ls
+  396  clear
+  397  sudo reboot
+  398  locale -a
+  399  ls
+  400  pwd
+  401  cls
+  402  ls
+  403  pwd
+  404  cls
+  405  clear
+  406  sudo pacman -Syu
+  407  sudo reboot
+  408  ls
+  409  pwd
+  410  clear
+  411  df -h /
+  412  df 
+  413  df -a
+  414  df -hT /home
+  415  df -m 
+  416  ls
+  417  pwd
+  418  cls
+  419  pu
+  420  sudo pacman -Syuu
+  421  sudo reboot
+  422  ls
+  423  pwd
+  424  clear
+  425  sudo pacman -Syuu
+  426  paru -Sua
+  427  ls
+  428  pwd
+  429  cls
+  430  ls -al
+  431  cd .android
+  432  ls
+  433  cd ..
+  434  cd .cache
+  435  ls
+  436  cd paru
+  437  ls
+  438  cd ..
+  439  ls
+  440  cd yay
+  441  ls
+  442  cd jellyfin-ffmpeg5
+  443  ls
+  444  paru -Sua
+  445  cd ~
+  446  ls
+  447  lspci\nxrandr --listproviders
+  448  lspci
+  449  xrandr --listproviders
+  450  sudo xrandr --listproviders
+  451  sudo dmesg
+  452  upgrade_oh_my_zsh
+  453  ls
+  454  pwd
+  455  cls
+  456  clear
+  457  yay -Syuu
+  458  paru -Sua
+  459  pacm -Syuu
+  460  pacm -Syu
+  461  sudo pacman -Syu
+  462  ls
+  463  yay -S timeshift
+  464  pacman -Qqen
+  465  pacman -Qqem
+  466  yay -S dust
+  467  dust
+  468  cd /
+  469  dust
+  470  ls
+  471  clear
+  472  cn
+  473  ls
+  474  pwd
+  475  clear
+  476  pu
+  477  sudo pacman -Syuu
+  478  vim
+  479  sudo pacman -R  vim-runtime
+  480  paru -Sua
+  481  ls
+  482  pwd
+  483  clar
+  484  clear
+  485  pwd
+  486  ls
+  487  pwd
+  488  clear
+  489  tmux
+  490  ls
+  491  sudo pacman -Syuu
+  492  pacman -Rs
+  493  sudo pacman -Rs
+  494  sudo pacman -Rs vim
+  495  sudo pacman pacman -Qdtq\n
+  496  sudo pacman -Qdtq
+  497  sudo pacman -Syu
+  498  ls
+  499  wpd
+  500  pw
+  501  clear
+  502  ls
+  503  sudo reboot
+  504  lspci
+  505  ls
+  506  xrandr 
+  507  sudo xrandr
+  508  sudo reboot
+  509  ls
+  510  pwd
+  511  sudo reboot
+  512  sudo pacman -Syu
+  513  yay -
+  514  yay -S vim
+  515  sudo pacman -Syu
+  516  sudo reboot
+  517  yay -Sua
+  518  paru -Sua
+  519  yay -Sua
+  520  sudo pacman -Syu
+  521  sudo reboot
+  522  sudo pacman -Sua
+  523  sudo pacman -Syu
+  524  cd /boot/
+  525  ls
+  526  rm ''\''\n
+  527  ls
+  528  rm "'"
+  529  ls
+  530  vi "'"
+  531  ls
+  532  pwd
+  533  cls
+  534  clear
+  535  ls
+  536  df -h /
+  537  ls
+  538  pwd
+  539  clear
+  540  sudo pacman -Sua
+  541  sudo pacman -Syu
+  542  sudo reboot
+  543  systemctl --type=service
+  544  systemctl list-units --type=service
+  545  clear
+  546  systemctl list-units --type=service
+  547  systemctl list-unit-files --type=service --state=enabled
+  548  systemctl list-unit-files | grep enabled
+  549  sudo exportfs -v
+  550  df -h /
+  551  df -h /media/Downloads
+  552  systemctl list-unit-files | grep Downloads
+  553  yay -S qbittorrent-nox
+  554  python
+  555  ls
+  556  sudo systemctl enable qbittorrent-nox@.service
+  557  sudo systemctl enable qbittorrent-nox.service
+  558  sudo systemctl enable qbittorrent-nox
+  559  sudo systemctl enable qbittorrent
+  560  yay -S qbittorrent-enhanced-nox
+  561  where qbittorrent-nox
+  562  sudo useradd qBitorrent
+  563  sudo useradd qbt
+  564  ls
+  565  vi /etc/passwd
+  566  sudo vi /etc/passwd
+  567  sudo userdel qbt
+  568  ls
+  569  vi /etc/passwd
+  570  tmux
+  571  0;10;1c
+  572  ls
+  573  exit
+  574  tmux
+  575  ls
+  576  sudo su qbittorrent
+  577  sudo vi /etc/passwd
+  578  zsh
+  579  exit
+  580  ls
+  581  which zsh
+  582  sudo usermod -s /usr/bin/zsh qbittorrent
+  583  sudo su qbittorrent
+  584  sudo vi /etc/systemd/system/qbittorrent.service
+  585  systemctl list-unit-files | grep Downloads
+  586  systemctl list-unit-files | grep online
+  587  systemctl list-unit-files | grep mount
+  588  systemctl list-unit-files | grep mount | grep media
+  589  sudo systemctl enable qbittorrent.service
+  590  sudo systemctl start qbittorrent.service
+  591  sudo su qbittorrent
+  592  cd /media/Downloads
+  593  mkdir a
+  594  pwd
+  595  cd ..
+  596  ls
+  597  cd Movies
+  598  mkdir a
+  599  ls
+  600  sudo vi /etc/systemd/system/qbittorrent.service
+  601  ls
+  602  sudo reboot
+  603  ls
+  604  sudo systemctl start qbittorrent.service
+  605  cd /media
+  606  ls
+  607  cd Movies
+  608  ls
+  609  pwd
+  610  journalctl -b
+  611  sudo journalctl -b
+  612  sudo journalctl /usr/lib/systemd/systemd
+  613  ls
+  614  sudo reboot
+  615  sudo systemctl start qbittorrent.service
+  616  sudo journalctl -u qbittorrent.service
+  617  sudo vi /etc/systemd/system/qbittorrent.service
+  618  sudo reboot
+  619  sudo journalctl -u qbittorrent.service
+  620  sudo vi /etc/systemd/system/qbittorrent.service
+  621  sudo journalctl -u network-online.target
+  622  sudo  vi /etc/systemd/system/qbittorrent.service
+  623  sudo journalctl -u nss-lookup.target
+  624  sudo journalctl -u media-Downloads.mount
+  625  ls
+  626  sudo systemctl list-units 
+  627  sudo systemctl list-units | grep mount
+  628  sudo journalctl -u  media-Downloads.automount
+  629  ls
+  630  sudo reboot
+  631  sudo journalctl -u  media-Downloads.automount
+  632  sudo journalctl -u  media-Downloads.mount
+  633  ls
+  634  sudo vi /etc/systemd/system/qbittorrent.service
+  635  sudo reboot
+  636  sudo journalctl -u qbittorrent.service
+  637  sudo journalctl -u  media-Downloads.mount
+  638  ls
+  639  yay -S nfs-common
+  640  sudo vi /etc/fstab
+  641  sudo journalctl -u NetworkManager-wait-online.service
+  642  sudo systemctl enable NetworkManager-wait-online.service
+  643  sudo reboot
+  644  ls
+  645  sudo journalctl -u  media-Downloads.mount
+  646  sudo vi /etc/systemd/system/qbittorrent.service
+  647  sudo systemctl enable media-Photos.automount
+  648  sudo systemctl start qbittorrent.service
+  649  systemctl daemon-reload
+  650  sudo systemctl daemon-reload
+  651  sudo systemctl start qbittorrent.service
+  652  sudo reboot
+  653  sudo vi /etc/systemd/system/onemin.timer
+  654  sudo systemctl stop qbittorrent.service
+  655  sudo mv /etc/systemd/system/onemin.timer /etc/systemd/system/qbittorrent.timer
+  656  sudo systemctl enable qbittorrent.timer
+  657  sudo systemctl disable qbittorrent.service
+  658  sudo systemctl start qbittorrent.timer
+  659  sudo reboot
+  660  ls
+  661  sudo journalctl -u qbittorrent.timer
+  662  ls
+  663  sudo vi /etc/systemd/system/qbittorrent.timer
+  664  vi /etc/systemd/system/qbittorrent.service
+  665  sudo reboot
+  666  yay -R qbittorrent-enhanced-nox
+  667  yay -S qbittorrent-nox
+  668  ls
+  669  sudo reboot
+  670  pwd
+  671  clear
+  672  sudo journalctl -u qbittorrent.timer
+  673  where qbittorrent-nox
+  674  ls
+  675  cd .ssh
+  676  ls
+  677  vi id_rsa.pub
+  678  ls
+  679  cd ~
+  680  ls
+  681  mkdir Git
+  682  ls
+  683  cd Git
+  684  ls
+  685  git clone git@github.com:txiangyang/SetupEnv.git
+  686  ls
+  687  cd SetupEnv
+  688  ls
+  689  mkdir archlinux
+  690  cd archlinux
+  691  ls
+  692  ln /etc/systemd/system/qbittorrent.timer qbittorrent.timer
+  693  ln -s /etc/systemd/system/qbittorrent.timer qbittorrent.timer 
+  694  ls 
+  695  vi qbittorrent.timer
+  696  ln -s /etc/systemd/system/qbittorrent.service qbittorrent.service
+  697  ls
+  698  git config user.name txiangyang
+  699  git config user.email xiangyangtang@outlook.com
+  700  git commit
+  701  git add qbittorrent.*
+  702  git commit -a
+  703  git push
+  704  ls
+  705  sudo
+  706  ls
+  707  rm -rf qbittorrent.timer
+  708  sudo ln /etc/systemd/system/qbittorrent.timer qbittorrent.timer
+  709  ls
+  710  vi qbittorrent.timer
+  711  rm -f qbittorrent.service
+  712  ls
+  713  sudo ln /etc/systemd/system/qbittorrent.service qbittorrent.service
+  714  ls
+  715  git add qbittorrent.*
+  716  git commit -a
+  717  git push
+  718  ls
