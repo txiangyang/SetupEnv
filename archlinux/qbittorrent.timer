@@ -1,1 +1,10 @@
-/etc/systemd/system/qbittorrent.timer
+[Unit]
+Description=Timer for qBitorrent
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=48h
+Unit=qbittorrent.service
+
+[Install]
+WantedBy=timers.target
