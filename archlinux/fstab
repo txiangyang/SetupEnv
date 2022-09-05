@@ -1,0 +1,16 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p7
+UUID=cecd30ad-dc67-418a-98df-24077d127a40	/         	ext4      	rw,relatime	0 1
+UUID=aab55d72-9c73-44d0-af24-776483686606       /mnt/manjaro          	ext4      	rw,relatime	0 1
+/swapfile none swap sw 0 0
+
+10.0.0.8:/Pt 			 	  /media/Movies nfs  _netdev,auto,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,hard,intr,noatime 	 0 0
+10.0.0.8:/Music		 	  	  /media/Music nfs  _netdev,auto,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,hard,intr,noatime 	 0 0
+10.0.0.8:/TV 			 	  /media/TV nfs  _netdev,auto,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,hard,intr,noatime 	 0 0
+10.0.0.8:/Downloads 			  /media/Downloads nfs  _netdev,auto,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,hard,intr,noatime 	 0 0
+10.0.0.8:/FairyTale			  /media/FariyTale nfs  _netdev,auto,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,hard,intr,noatime 	 0 0
+10.0.0.8:/Photos			  /media/Photos nfs  _netdev,auto,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,hard,intr,noatime 	 0 0
+10.0.0.8:/Variety\040Shows		  /media/Variety\040Shows nfs  _netdev,auto,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,hard,intr,noatime 	 0 0
