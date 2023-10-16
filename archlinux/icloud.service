@@ -1,0 +1,12 @@
+[Unit]
+Description=iCloud Photo downloader daemon
+After=network-online.target
+
+[Service]
+Type=simple
+User=tang
+Restart=always
+ExecStart=/home/tang/Git/SetupEnv/archlinux/iCloud.sh
+
+[Install]
+WantedBy=multi-user.target

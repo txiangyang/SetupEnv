@@ -2,8 +2,8 @@
 Description=qBittorrent-nox service
 Documentation=man:qbittorrent-nox
 Wants=network-online.target
-After=network-online.target media-Downloads.mount media-FariyTale.mount media-Movies.mount media-Music.mount media-Photos.mount media-TV.mount 
-BindsTo=media-FariyTale.mount media-Movies.mount media-Music.mount media-Photos.mount media-TV.mount
+After=network-online.target mnt-media.mount
+BindsTo=mnt-media.mount 
 
 [Service]
 # if you have systemd < 240 (Ubuntu 18.10 and earlier, for example), you probably want to use Type=simple instead

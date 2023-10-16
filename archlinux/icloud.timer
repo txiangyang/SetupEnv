@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for icloud photo downloader
+
+[Timer]
+OnCalendar=00/4:00
+Persistent=true
+Unit=icloud.service
+
+[Install]
+WantedBy=timers.target
